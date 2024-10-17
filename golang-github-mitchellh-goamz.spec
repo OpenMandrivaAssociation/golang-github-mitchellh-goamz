@@ -35,7 +35,7 @@ Version:        0
 Release:        0.16.git%{shortcommit}%{?dist}
 Summary:        An Amazon Library for Go
 License:        LGPLv3+
-URL:            http://%{import_path}
+URL:            https://%{import_path}
 Source0:        https://github.com/%{project}/%{repo}/archive/%{commit}/%{repo}-%{shortcommit}.tar.gz
 
 # e.g. el6 has ppc64 arch without gcc-go, so EA tag is required
